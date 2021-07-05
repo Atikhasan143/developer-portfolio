@@ -4,11 +4,15 @@ body{
 }
 h1{
     font-size: 50px;
+    font-weight: bold;
+}
+h3{
+    font-size: 40px;
 }
 .color-orange{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     padding-bottom: 150px;
 }
@@ -40,4 +44,8 @@ div{
     background-repeat: no-repeat;
     background-position: right;
     padding-top: 20px;
+}
+.experience-area{
+    padding-left: 2px;
+    padding: right 100px;
 }
